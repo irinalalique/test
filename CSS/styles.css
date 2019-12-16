@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway|Roboto&display=swap");
+.container {
+  width: 1440px; }
+
+.main {
+  height: 829px;
+  background-color: #dbcfcc; }
+  .main__title {
+    width: 399px;
+    padding-top: 77px;
+    padding-bottom: 91px;
+    height: 41px;
+    color: #ad6c12;
+    font-family: Roboto;
+    font-size: 55px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 auto;
+    white-space: nowrap; }
+  .main__items {
+    display: flex;
+    justify-content: center; }
+  .main .item {
+    margin-right: 34px; }
+    .main .item:last-child {
+      margin-right: 0; }
+    .main .item__image {
+      width: 339px;
+      height: 301px; }
+      .main .item__image img {
+        width: 100%; }
+    .main .item__description {
+      width: 339px;
+      height: 197px;
+      background-color: #ffffff; }
+      .main .item__description .desc {
+        padding-top: 15px;
+        margin-left: 22px; }
+        .main .item__description .desc__date {
+          color: #555555;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 33px;
+          letter-spacing: 1.05px; }
+        .main .item__description .desc__title {
+          color: #4f4e4e;
+          font-family: Roboto;
+          font-size: 17px;
+          font-weight: 700;
+          margin-top: 11px; }
+        .main .item__description .desc p {
+          width: 231px;
+          width: 238px;
+          color: #4f4e4e;
+          font-family: Roboto;
+          font-size: 17px;
+          margin-top: 7px;
+          margin-bottom: 15px; }
+        .main .item__description .desc a {
+          width: 85px;
+          height: 11px;
+          color: #555555;
+          font-family: Roboto;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 33px;
+          text-transform: uppercase;
+          /* Text style for "READ MORE" */
+          letter-spacing: 1.05px;
+          border-bottom: 7px solid #ff992b;
+          text-decoration: none; }
+          .main .item__description .desc a:hover {
+            border: none; }
+
+.article {
+  height: 340px;
+  background-color: #4a1100; }
+  .article__wrap {
+    width: 704px;
+    margin: 0 auto; }
+  .article__img {
+    text-align: center;
+    padding-top: 47px;
+    padding-bottom: 22px; }
+  .article__quote {
+    width: 704px;
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 33.33px;
+    text-align: center; }
+  .article__underline {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 33.33px;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 35px; }
+  .article .socials {
+    width: 355px;
+    margin: 0 auto;
+    padding-bottom: 43px; }
+    .article .socials .social {
+      margin-right: 21px;
+      width: 46px;
+      height: 46px; }
+      .article .socials .social:last-child {
+        margin-right: 0; }
+
+.footer {
+  height: 323px;
+  background-color: #dbcfcc;
+  overflow: hidden; }
+  .footer .wrapper {
+    padding: 47px 182px;
+    display: flex; }
+  .footer .left {
+    margin-right: 239px; }
+    .footer .left h2 {
+      width: 81px;
+      height: 19px;
+      color: #2d2f2a;
+      font-family: Roboto;
+      font-size: 25px;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin-bottom: 47px; }
+    .footer .left p {
+      width: 311px;
+      color: #2d2f2a;
+      font-family: Roboto;
+      font-size: 19px;
+      line-height: 29px; }
+  .footer .right {
+    display: flex; }
+    .footer .right .column {
+      width: 69px;
+      display: flex;
+      flex-direction: column;
+      margin-right: 118px;
+      margin-bottom: 80px; }
+      .footer .right .column:nth-child(even) {
+        margin-right: 114px; }
+      .footer .right .column:last-child {
+        margin-right: 0; }
+      .footer .right .column h2 {
+        color: #2d2f2a;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 33.33px;
+        text-transform: uppercase;
+        margin-bottom: 36px; }
+      .footer .right .column a {
+        color: #2d2f2a;
+        font-family: Roboto;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 29px;
+        text-decoration: none; }
